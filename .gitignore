@@ -1,0 +1,6 @@
+datasets/raw/*
+!datasets/raw/README.md
+datasets/clean/steam_monthly_clean.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
