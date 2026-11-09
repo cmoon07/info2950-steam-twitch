@@ -17,6 +17,7 @@ We built a 347-game dataset by merging monthly Steam player counts (612K records
 ## Reproducing
 1. Download the raw files listed in `datasets/raw/README.md` into `datasets/raw/`.
 2. Run the notebooks in `notebooks/` from top to bottom. The Google Drive mount only runs in Colab.
+3. Intermediate files (e.g., steam_monthly_clean.csv, 57 MB) aren’t included; the cleaning notebook recreates them from the raw data.
 
 ## Status
 Phase II (EDA and preregistration) is complete. The analysis and results will be added in Phase III.
